@@ -7,4 +7,7 @@ public class Sample {
         this.id = id;
         this.text = text;
     }
+    public Sample(){
+
+    }
 }
