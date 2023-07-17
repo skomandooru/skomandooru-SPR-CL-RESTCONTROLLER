@@ -1,6 +1,7 @@
 package Lab.Controller;
 
 import Lab.Model.Sample;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
 /**
@@ -72,7 +73,7 @@ public class SampleController {
      *     text:"sample text"
      * }
      */
-    @PostMapping("requestbody")
+    @PostMapping(value = "/requestbody")
     public Sample postSample(){
         //you will need to change the method's parameters and return the extracted request body.
         return null;
